@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <div class="first-section">
+        <div class="top-text-box">
+            <p>Welcome to your resource directories. Create Memories if you wish.</p>
+        </div>
+
+        <div class="create-button-box">
+            <button type="button" id="button">Create a resource</button>
+        </div>
+        
+    </div>
+    
+
+    <div class="resources-section" id="resources-section">
+        <!-- <div class="resource">
+            <div class="name-of-website">
+                <a href="#" target = '_blank'>Name of Website</a>
+                <i class="fa-solid fa-trash"></i> 
+            </div>
+            <div class="describtion-of-website">
+                <p>This website is for researching on UX design principles.I love the way research is done on the website</p>
+            </div>
+        </div> -->
+
+
+    </div>
+
+
+
+    <div class="modal-overlay" id="modal-overlay">
+
+        <div class="modal">
+            <div class="close-icon-box">
+                <i class="fa-solid fa-xmark" id="close-modal-icon"></i>
+            </div>
+
+            <div class="modal-title-box">
+                <h3>Create resource</h3>
+            </div>
+
+            <div class="modal-form">
+                <form id="resource-form">
+                    <div class="labelAndInput">
+                        <label for="nameOfWebsite">Name of Website</label>
+                        <input type="text" name="nameOfWebsite" id="nameOfWebsite" placeholder="enter name of website e.g data analysis website for NASA">
+                    </div>
+
+                    <div class="labelAndInput">
+                        <label for="linkOfWebsite">Link of Website</label>
+                        <input type="text" name="linkOfWebsite" id="linkOfWebsite" placeholder="enter link of website e.g www.link.com">
+                    </div>
+
+                    <div class="labelAndInput">
+                        <label for="descriptionOfWebsite">Description of Website</label>
+                       <textarea name="description" id="descriptionOfWebsite" cols="30" rows="10" placeholder="Enter description"></textarea>
+                    </div>
+                    <button type="submit" id="form-button" class="form-button">Create</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- <script src="./index.js"></script> -->
+    <script src="./testing.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
